@@ -1,0 +1,13 @@
+package com.demo;
+
+public class example{
+	public static void main(String[] args) {
+		String data="selenium,sql,java,testng,cucumber";
+		String arr[]=data.split(",");
+		for(String i:arr) {
+			System.out.println(i);
+		}
+		
+		String[] obj=data.split(",");
+	}
+}

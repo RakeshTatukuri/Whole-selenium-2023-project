@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="git@github.com:RakeshTatukuri/Project-1.git"/>
+		<item value="git@github.com:PriyankaNigade18/GitHubLearningOct23.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="RakeshSelenium&amp;Testng &lt;RakeshTatukuru97@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="RakeshSelenium&amp;Testng &lt;RakeshTatukuru97@gmail.com&gt;"/>
+	</list>
+	<section name="GitImportWizard">
+		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\91955\eclipse-workspace\demo\.git">
+			<item value="false"/>
+			<item value="RakeshSelenium&amp;Testng &lt;RakeshTatukuru97@gmail.com&gt;"/>
+			<item value="all files are added eclipse to github"/>
+			<item value="RakeshSelenium&amp;Testng &lt;RakeshTatukuru97@gmail.com&gt;"/>
+			<item value="acaa2becbd1f15eea610a6b785d2be2d410ecb03"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+	</section>
+</section>

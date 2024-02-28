@@ -1,0 +1,28 @@
+package webTest;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class googlesearchscenario {
+public static void main(String[] args) {
+	
+	WebDriver driver=new ChromeDriver();
+	driver.get("https://www.google.com/");
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	driver.findElement(By.id("APjFqb")).sendKeys("testng");
+	//list of webelements in google search
+	List<WebElement> list1=driver.findElements(By.xpath("//ul[@class='G43f7e']//li"));
+	for(WebElement i:list1)
+	{
+		System.out.println(i.getText());//inner html text
+		System.out.println(i.getSize());
+	}
+	
+	driver.findElement(By.xpath("//div[@class='erkvQe']//ul"));
+}
+}

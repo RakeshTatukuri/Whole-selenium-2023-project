@@ -1,0 +1,13 @@
+package com.demo;
+
+import org.apache.poi.hpsf.Array;
+
+public class example{
+	public static void main(String[] args) {
+		String data="selenium,sql,java,testng,cucumber";
+		String arr[]=data.split(data);
+		for(Array[] i:data) {
+			System.out.println(i);
+		}
+	}
+}

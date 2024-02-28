@@ -1,0 +1,46 @@
+package stepdef;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class HRMDatadrivensteps {
+
+WebDriver driver;
+@Given("open hrm application")
+public void open_hrm_application() {
+   driver=new ChromeDriver();
+   driver.get("");
+}
+
+@When("users enters username\"Admin\" and enters password\"admin123\"")
+public void users_enters_username_admin_and_enters_password_admin123() {
+    
+}
+
+@When("user clicks on login button from hrm page")
+public void user_clicks_on_login_button_from_hrm_page() {
+    
+}
+
+@Then("as per test data for valid dataset user should be able to login")
+public void as_per_test_data_for_valid_dataset_user_should_be_able_to_login() {
+    
+}
+
+@When("users enters username\"test\" and enters password\"test123\"")
+public void users_enters_username_test_and_enters_password_test123() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("users enters username\"ram\" and enters password\"ram123\"")
+public void users_enters_username_ram_and_enters_password_ram123() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+}

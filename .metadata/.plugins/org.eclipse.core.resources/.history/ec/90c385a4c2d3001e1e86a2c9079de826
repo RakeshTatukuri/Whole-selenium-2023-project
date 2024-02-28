@@ -1,0 +1,13 @@
+package Reportsdemo;
+
+import org.testng.annotations.Test;
+
+public class ExtentReportDemo {
+
+	@Test
+	public void f()
+	{
+		
+	}
+	
+}

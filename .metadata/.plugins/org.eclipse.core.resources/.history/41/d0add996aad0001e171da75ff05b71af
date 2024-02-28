@@ -1,0 +1,89 @@
+package stepdef;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+public class Amazonsteps {
+
+WebDriver driver;
+@Given("open amazon home page")
+public void open_amazon_home_page() {
+    driver=new ChromeDriver();
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    driver.get("https://www.amazon.in/");
+}
+
+@When("user capture current title of home page")
+public void user_capture_current_title_of_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("title should matched with home page title")
+public void title_should_matched_with_home_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user open bestsellers page")
+public void user_open_bestsellers_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user capture current title of bestsellers")
+public void user_capture_current_title_of_bestsellers() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("title should match with bestsellers page title")
+public void title_should_match_with_bestsellers_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user open mobiles page")
+public void user_open_mobiles_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user capture current title of mobiles")
+public void user_capture_current_title_of_mobiles() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("title should match with mobiles page title")
+public void title_should_match_with_mobiles_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user open todaysdeal page")
+public void user_open_todaysdeal_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user capture current title of todaysdeal")
+public void user_capture_current_title_of_todaysdeal() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("title should match with todaysdeal page title")
+public void title_should_match_with_todaysdeal_page_title() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+
+}

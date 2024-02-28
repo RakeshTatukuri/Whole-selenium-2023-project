@@ -1,0 +1,10 @@
+package testRunner;
+
+public class CRMRunner {
+
+	@RunWith(Cucumber.class)
+	@CucumberOptions(features="src/test/resources/CRM.feature",
+					glue="stepdef",
+					publish=true
+			)
+}

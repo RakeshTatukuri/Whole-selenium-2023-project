@@ -1,0 +1,10 @@
+package Hooksdemo;
+
+import org.openqa.selenium.WebDriver;
+
+public class BrowserSetup {
+
+	WebDriver driver;
+	ThreadLocal<WebDriver> tdriver=new ThreadLocal<WebDriver>();
+	
+}

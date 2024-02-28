@@ -1,0 +1,24 @@
+Feature: login releated scenarios
+  Scenario: valid login
+  Given: user navigates to application
+  When: user enters valid username and password
+  And: user clicks on login button
+  Then: system is logged into application
+ 
+  Scenario: Invalid login
+  Given: user navigates to application
+  When: user enters invalid username and valid password
+  And: user clicks on login button
+  Then: system is display an error message
+  
+  Scenario: Invalid login
+  Given: user navigates to application
+  When: user enters valid username and invalid password
+  And: user clicks on login button
+  Then: system is display an error message
+ 
+  Scenario: Invalid login
+  Given: user navigates to application
+  When: user enters invalid username and invalid password
+  And: user clicks on login button
+  Then: system is display an error message

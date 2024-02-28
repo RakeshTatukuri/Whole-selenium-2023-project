@@ -1,0 +1,7 @@
+java.lang.AssertionError: The following asserts failed:
+	expected [OrangeHRM] but found [Invalid credentials]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+	at stepDefinitions.HRMwithwrongpassword.system_is_displays_error_message(HRMwithwrongpassword.java:40)
+	at ?.system is displays error message(file:///C:/Users/91955/eclipse-workspace/cucumberproject/Features/Wrongpassword.feature:6)
+

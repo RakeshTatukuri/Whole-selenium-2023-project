@@ -1,0 +1,52 @@
+package stepdef;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class CRMSteps {
+
+	WebDriver driver;//global variable
+@Given("open CRM application")
+public void open_crm_application() {
+   driver=new ChromeDriver();
+   driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(11));
+   driver.navigate().to("");
+}
+
+@When("user click on sign in link")
+public void user_click_on_sign_in_link() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("sign in page should open")
+public void sign_in_page_should_open() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user enters email {string} and password {string}")
+public void user_enters_email_and_password(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@When("user clicks on submit button")
+public void user_clicks_on_submit_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Then("for valid data user should be able to login")
+public void for_valid_data_user_should_be_able_to_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+ 
+}

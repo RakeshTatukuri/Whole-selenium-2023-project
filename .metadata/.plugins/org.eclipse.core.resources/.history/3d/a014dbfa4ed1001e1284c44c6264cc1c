@@ -1,0 +1,25 @@
+package Hooksdemo;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
+public class CRMHooks {
+
+	WebDriver driver;
+	@Before
+	public void setup()
+	{
+	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	 driver.navigate().to("https://automationplayground.com/crm/");
+	}
+	@After
+	public void teardown()
+	{
+		driver.quit();
+	}
+	
+}

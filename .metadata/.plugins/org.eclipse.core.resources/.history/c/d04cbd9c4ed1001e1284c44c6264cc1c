@@ -1,0 +1,21 @@
+package Hooksdemo;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrowserSetup {
+
+	WebDriver driver;
+	ThreadLocal<WebDriver> tdriver=new ThreadLocal<WebDriver>();
+	
+	public WebDriver getdriver()
+	{
+	return	tdriver.get();
+	}
+	public  WebDriver setdriver()
+	{
+		driver=new ChromeDriver();
+		 tdriver.set(driver);
+		 return driver;
+	}
+}

@@ -1,0 +1,14 @@
+package Hooksdemo;
+
+public class BrowserSetup {
+
+	public void setup()
+	{
+		
+	}
+	public void teardown()
+	{
+		
+	}
+	
+}

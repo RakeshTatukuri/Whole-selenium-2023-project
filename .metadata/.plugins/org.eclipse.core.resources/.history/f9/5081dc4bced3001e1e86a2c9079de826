@@ -1,0 +1,11 @@
+package Reportsdemo;
+
+import org.testng.ITestListener;
+
+import com.aventstack.extentreports.ExtentReports;
+
+public class ExtentTestNGITestListener implements ITestListener {
+
+	ExtentReports report=new ExtentManager.getInstance();
+	
+}

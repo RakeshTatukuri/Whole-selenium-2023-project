@@ -1,0 +1,20 @@
+package Hooksdemo;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+
+public class BrowserSetup {
+
+	WebDriver driver;
+	public void setup()
+	{
+	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	 driver.navigate().to("https://automationplayground.com/crm/");
+	}
+	public void teardown()
+	{
+		driver.close();
+	}
+	
+}

@@ -1,0 +1,22 @@
+package Reportsdemo;
+
+import com.aventstack.extentreports.ExtentReports;
+
+public class ExtentManager {
+
+	public static ExtentReports extent;
+	public static ExtentReports getInstance() 
+	{
+		
+		if(extent==null)
+		{
+			extent=createInstance();
+			return extent;
+		}
+		else 
+		{
+			return extent;
+		}
+		
+	}
+}

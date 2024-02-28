@@ -1,0 +1,33 @@
+package com.demo;
+
+public class example{
+	public static void main(String[] args) {
+		/*String data="selenium,sql,java,testng,cucumber";
+		String arr[]=data.split(",");
+		for(String i:arr) {
+			System.out.println(i);
+		}
+		
+		String obj=data.split(",")[2];
+		System.out.println(obj);
+		
+		String date="2024-Feb-14";
+		String year=date.split("-")[0];
+		String month=date.split("-")[1];
+		String day=date.split("-")[2];
+		System.out.println("year is"+year+"\nmonth is "+month +"\nday is"+day);
+		*/
+		String s1="Welcome to java class!";
+		String S2="Welcome to java class!";
+		//concat() /+
+		s1.concat(S2);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

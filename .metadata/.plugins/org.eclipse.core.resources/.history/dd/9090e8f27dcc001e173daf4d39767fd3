@@ -1,0 +1,12 @@
+package com.demo;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class Arraylistusingiterator {
+public static void main(String[] args) {
+	
+
+	
+}
+}

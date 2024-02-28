@@ -1,0 +1,16 @@
+package Reportsdemo;
+
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class TestListeners implements ITestListener{
+ 
+	public void onstart() {
+		System.out.println("Test started");
+	}
+	public void onTestsuccess(ITestResult result)
+	{
+		System.out.println("Test success "+result.getName());
+	}
+	
+}
